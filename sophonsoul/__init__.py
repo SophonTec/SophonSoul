@@ -10,6 +10,6 @@
 #
 from os.path import dirname, abspath
 
-__version__ = '1.0.0'
+__version__ = '0.0.0'
 
 ROOT_DIR = dirname(dirname(abspath(__file__)))

@@ -1,11 +1,9 @@
 """
 ------------
-SophonSystem
+SophonSoul
 ------------
 
-SophonSystem is the computational core of the Sophon-cognitive AI system.
-Leveraging modern tensor-based parallel computing power, SophonSystem realizes the
-deeplearning and reinforcement learning algorithms with a cognitive core.
+SophonSoul is the soul of AI system.
 
 Usage
 -----
@@ -16,18 +14,18 @@ Usage
 
 from setuptools import setup, find_packages
 import sys
-from sophonsystem import __version__
+from sophonsoul import __version__
 
 
-setup(name='SophonSystem',
+setup(name='SophonSoul',
       version=__version__,
       author='SophonTec',
       author_email='sophontec@gmail.com',
-      description='SophonSystem is the computational core of the Sophon AI system',
+      description='SophonSoul is the soul of AI system',
       long_description=__doc__,
       # package_dir={'': 'sophonsystem'},
       packages=find_packages(),
-      py_modules=['sophonsystem'],
+      py_modules=['sophonsoul'],
       classifiers=['Development Status :: 2 - PreAlpha',
                    'Intended Audience :: Developers',
                    'Natural Language :: English',

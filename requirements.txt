@@ -1,0 +1,7 @@
+torch
+torchvision
+torchaudio
+torchtext
+gym
+matplotlib
+pytest
